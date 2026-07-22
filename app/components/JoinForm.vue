@@ -82,11 +82,11 @@
             <label for="track">感兴趣的方向</label>
             <div class="select-wrapper">
               <select id="track" v-model="form.track">
-                <option value="ai">人工智能 (Artificial Intelligence)</option>
-                <option value="db">数据库技术方向 (Database Technology)</option>
-                <option value="industrial">工业数智化 (Industrial Digital Intelligence)</option>
-                <option value="iot">智能云物联 (Intelligent Cloud IoT)</option>
-                <option value="software">智能软件开发 (Intelligent Software Development)</option>
+                <option value="ai">人工智能</option>
+                <option value="db">数据库技术方向</option>
+                <option value="industrial">工业数智化</option>
+                <option value="iot">智能云物联</option>
+                <option value="software">智能软件开发</option>
               </select>
               <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </div>
@@ -146,11 +146,11 @@ const form = reactive({
 })
 
 const trackMap = {
-  ai: '人工智能 (Artificial Intelligence)',
-  db: '数据库技术方向 (Database Technology)',
-  industrial: '工业数智化 (Industrial Digital Intelligence)',
-  iot: '智能云物联 (Intelligent Cloud IoT)',
-  software: '智能软件开发 (Intelligent Software Development)'
+  ai: '人工智能',
+  db: '数据库技术方向',
+  industrial: '工业数智化',
+  iot: '智能云物联',
+  software: '智能软件开发'
 }
 
 const errors = reactive({
