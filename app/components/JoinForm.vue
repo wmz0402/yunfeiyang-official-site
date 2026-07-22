@@ -82,11 +82,11 @@
             <label for="track">感兴趣的方向</label>
             <div class="select-wrapper">
               <select id="track" v-model="form.track">
-                <option value="cloud">云计算与后端 (Cloud & Backend)</option>
-                <option value="frontend">前端与移动开发 (Frontend & Mobile)</option>
-                <option value="ai">人工智能与大数据 (AI & Data Science)</option>
-                <option value="security">网络与信息安全 (Cybersecurity)</option>
-                <option value="iot">智能技术与嵌入式 (IoT & Embedded)</option>
+                <option value="ai">人工智能 (Artificial Intelligence)</option>
+                <option value="db">数据库技术方向 (Database Technology)</option>
+                <option value="industrial">工业数智化 (Industrial Digital Intelligence)</option>
+                <option value="iot">智能云物联 (Intelligent Cloud IoT)</option>
+                <option value="software">智能软件开发 (Intelligent Software Development)</option>
               </select>
               <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </div>
@@ -125,7 +125,6 @@
 <script setup lang="ts">
 import emailjs from '@emailjs/browser'
 import { ref, reactive } from 'vue'
-import { useScrollReveal } from '@/composables/useScrollReveal'
 
 const sectionRef = ref(null)
 useScrollReveal(sectionRef)
@@ -142,16 +141,16 @@ const resolvePath = (path: string) => {
 const form = reactive({
   name: '',
   email: '',
-  track: 'cloud',
+  track: 'ai',
   intro: ''
 })
 
 const trackMap = {
-  cloud: '云计算与后端 (Cloud & Backend)',
-  frontend: '前端与移动开发 (Frontend & Mobile)',
-  ai: '人工智能与大数据 (AI & Data Science)',
-  security: '网络与信息安全 (Cybersecurity)',
-  iot: '智能技术与嵌入式 (IoT & Embedded)'
+  ai: '人工智能 (Artificial Intelligence)',
+  db: '数据库技术方向 (Database Technology)',
+  industrial: '工业数智化 (Industrial Digital Intelligence)',
+  iot: '智能云物联 (Intelligent Cloud IoT)',
+  software: '智能软件开发 (Intelligent Software Development)'
 }
 
 const errors = reactive({

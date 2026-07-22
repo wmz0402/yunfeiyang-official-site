@@ -14,53 +14,93 @@
       <!-- Grid (Staggered Reveal) -->
       <div class="track-grid reveal-stagger">
         
-        <!-- Track 1: Cloud Computing -->
+        <!-- Track 1: Artificial Intelligence -->
         <div class="track-card">
           <span class="track__number">01</span>
           <div class="track__content">
-            <h3 class="track__title">云计算</h3>
-            <p class="track__position">Cloud Computing</p>
-            <p class="track__desc">构建高可用、可扩展的云端基础设施，掌握容器化与微服务架构。</p>
+            <h3 class="track__title">人工智能</h3>
+            <p class="track__position">Artificial Intelligence</p>
+            <p class="track__desc">探索机器学习、深度学习与大模型前沿，构建智能化算法与数据驱动的创新应用。</p>
             <div class="track__keywords">
-              <span>Kubernetes</span>
-              <span>Docker</span>
-              <span>Go</span>
-              <span>Microservices</span>
+              <span>Deep Learning</span>
+              <span>PyTorch</span>
+              <span>Computer Vision</span>
+              <span>NLP</span>
             </div>
           </div>
           <div class="track__footer">
             <span class="track__label">成长目标</span>
-            <span class="track__goal">云架构师</span>
+            <span class="track__goal">AI 算法工程师</span>
           </div>
         </div>
 
-        <!-- Track 2: Mobile App Dev -->
+        <!-- Track 2: Database Technology -->
         <div class="track-card">
           <span class="track__number">02</span>
           <div class="track__content">
-            <h3 class="track__title">移动应用开发</h3>
-            <p class="track__position">Mobile App Development</p>
-            <p class="track__desc">打造极致体验的原生与跨平台移动应用，连接数字世界与指尖。</p>
+            <h3 class="track__title">数据库技术方向</h3>
+            <p class="track__position">Database Technology</p>
+            <p class="track__desc">专注于海量数据存储、分布式数据库内核、查询性能优化与高可用架构设计。</p>
             <div class="track__keywords">
-              <span>Flutter</span>
-              <span>Swift</span>
-              <span>Kotlin</span>
-              <span>HarmonyOS</span>
+              <span>PostgreSQL</span>
+              <span>Distributed SQL</span>
+              <span>Redis</span>
+              <span>Query Optimization</span>
             </div>
           </div>
           <div class="track__footer">
             <span class="track__label">成长目标</span>
-            <span class="track__goal">移动开发工程师</span>
+            <span class="track__goal">数据库架构师</span>
           </div>
         </div>
 
-        <!-- Track 3: Intelligent Software -->
+        <!-- Track 3: Industrial Digital Intelligence -->
         <div class="track-card">
           <span class="track__number">03</span>
           <div class="track__content">
+            <h3 class="track__title">工业数智化</h3>
+            <p class="track__position">Industrial Digital Intelligence</p>
+            <p class="track__desc">赋能传统工业的数字化与智能化转型，构建数字孪生、智慧工厂与工业物联网。</p>
+            <div class="track__keywords">
+              <span>Industrial IoT</span>
+              <span>Digital Twin</span>
+              <span>Smart Factory</span>
+              <span>Industry 4.0</span>
+            </div>
+          </div>
+          <div class="track__footer">
+            <span class="track__label">成长目标</span>
+            <span class="track__goal">数智化解决方案专家</span>
+          </div>
+        </div>
+
+        <!-- Track 4: Intelligent Cloud IoT -->
+        <div class="track-card">
+          <span class="track__number">04</span>
+          <div class="track__content">
+            <h3 class="track__title">智能云物联</h3>
+            <p class="track__position">Intelligent Cloud IoT</p>
+            <p class="track__desc">连接万物感知与云端基础设施，打造边云协同、高并发的智能化云物联平台。</p>
+            <div class="track__keywords">
+              <span>Kubernetes</span>
+              <span>MQTT</span>
+              <span>Edge Computing</span>
+              <span>Cloud Native</span>
+            </div>
+          </div>
+          <div class="track__footer">
+            <span class="track__label">成长目标</span>
+            <span class="track__goal">云物联架构师</span>
+          </div>
+        </div>
+
+        <!-- Track 5: Intelligent Software Development -->
+        <div class="track-card">
+          <span class="track__number">05</span>
+          <div class="track__content">
             <h3 class="track__title">智能软件开发</h3>
-            <p class="track__position">Intelligent Software</p>
-            <p class="track__desc">融合 AI 技术的下一代软件工程，探索大模型与智能体的应用落地。</p>
+            <p class="track__position">Intelligent Software Development</p>
+            <p class="track__desc">融合 AI 技术的下一代软件工程，探索大语言模型、智能体（Agents）与现代应用落地。</p>
             <div class="track__keywords">
               <span>LLM</span>
               <span>Agents</span>
@@ -74,55 +114,12 @@
           </div>
         </div>
 
-        <!-- Track 4: Industrial Digital Intelligence -->
-        <div class="track-card">
-          <span class="track__number">04</span>
-          <div class="track__content">
-            <h3 class="track__title">工业数智化</h3>
-            <p class="track__position">Industrial Digital Intelligence</p>
-            <p class="track__desc">赋能传统工业的数字化转型，构建智慧城市与物联网解决方案。</p>
-            <div class="track__keywords">
-              <span>IoT</span>
-              <span>Digital Twin</span>
-              <span>Smart City</span>
-              <span>Industry 4.0</span>
-            </div>
-          </div>
-          <div class="track__footer">
-            <span class="track__label">成长目标</span>
-            <span class="track__goal">IoT 解决方案专家</span>
-          </div>
-        </div>
-
-        <!-- Track 5: Information Security -->
-        <div class="track-card">
-          <span class="track__number">05</span>
-          <div class="track__content">
-            <h3 class="track__title">信息安全</h3>
-            <p class="track__position">Information Security</p>
-            <p class="track__desc">守护数字世界的安全边界，不仅是防御，更是对底层原理的深刻理解。</p>
-            <div class="track__keywords">
-              <span>CTF</span>
-              <span>PenTesting</span>
-              <span>Cryptography</span>
-              <span>Network Sec</span>
-            </div>
-          </div>
-          <div class="track__footer">
-            <span class="track__label">成长目标</span>
-            <span class="track__goal">安全工程师</span>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-import { useScrollReveal } from '@/composables/useScrollReveal'
-
 const sectionRef = ref(null)
 useScrollReveal(sectionRef)
 </script>

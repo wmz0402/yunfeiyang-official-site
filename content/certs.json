@@ -11,7 +11,7 @@
         "id": "challenge-silver",
         "title": "Challenge Cup (挑战杯)",
         "award": "National Silver Award (银奖)",
-        "year": "2023",
+        "year": "2024",
         "image": "/images/certs/challenge-silver.jpg",
         "description": "“挑战杯”中国大学生创业计划竞赛。在激烈的竞争中脱颖而出，彰显了团队的社会责任感与创业实践能力。"
     },
@@ -19,7 +19,7 @@
         "id": "smartcar-national-2",
         "title": "Smart Car Competition (智能车)",
         "award": "National Second Prize (国家级二等奖)",
-        "year": "2023",
+        "year": "2024",
         "image": "/images/certs/smartcar-national-2.jpg",
         "description": "全国大学生智能汽车竞赛。团队在车辆控制算法与硬件设计上展现了卓越的工程技术水平。"
     },
@@ -27,7 +27,7 @@
         "id": "math-provincial-1",
         "title": "Mathematical Modeling (数学建模)",
         "award": "Provincial First Prize (省级一等奖)",
-        "year": "2022",
+        "year": "2024",
         "image": "/images/certs/math-provincial-1.jpg",
         "description": "全国大学生数学建模竞赛。团队运用复杂的数学模型解决了实际问题，展现了强大的逻辑思维与计算能力。"
     },
@@ -35,7 +35,7 @@
         "id": "lanqiao-provincial-2",
         "title": "Lanqiao Cup (蓝桥杯)",
         "award": "Provincial Second Prize (省级二等奖)",
-        "year": "2023",
+        "year": "2025",
         "image": "/images/certs/lanqiao-provincial-2.jpg",
         "description": "全国软件和信息技术专业人才大赛。在算法设计与编程实战中表现良好，体现了扎实的代码功底。"
     }
