@@ -20,7 +20,7 @@
         <div class="impact-col impact-col--soil">
           <h3 class="col-title">The Soil</h3>
           <div class="project-list" @mousemove="handleMouseMove">
-            <a href="https://intellibuddy-puce.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-item">
+            <a href="https://intellibuddy.luck007.online" target="_blank" rel="noopener noreferrer" class="project-item">
               <div class="project-head">
                 <span class="project-name">智教虚拟化平台</span>
                 <span class="project-stat">Deployed</span>
